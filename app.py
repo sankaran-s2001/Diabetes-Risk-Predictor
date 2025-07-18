@@ -5,8 +5,8 @@ import joblib
 import plotly.express as px
 
 # Load model and scaler
-scaler = joblib.load('scaler.pkl')
-model = joblib.load('model.pkl')
+scaler = joblib.load('./scaler.pkl')
+model = joblib.load('./model.pkl')
 
 # Page configuration
 st.set_page_config(page_title="🩺 Diabetes Risk Predictor", layout="centered")
